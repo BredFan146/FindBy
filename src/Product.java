@@ -7,9 +7,9 @@ public class Product {
 
     public Product(String description, double price, String name, int id) {
         this.description = description;
-        this.name=name;
-        this.price=price;
-        this.id=id;
+        this.name = name;
+        this.price = price;
+        this.id = id;
     }
 
     public String getDescription() {
@@ -42,5 +42,10 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    // Método para convertir el producto a una fila CSV
+    public String toCSV() {
+        return name + "," + id + "," + price + "," + description;
     }
 }
