@@ -1,2 +1,9 @@
-nombre,id,desc,precio
+nombre,id,precio,desc
+Laptop,1,799.99,High performance laptop
+Smartphone,2,599.99,Latest model smartphone
+Headphones,3,199.99,Noise-cancelling headphones
+Monitor,4,299.99,4K Ultra HD monitor
+Keyboard,5,99.99,Mechanical keyboard
+
+
 
